@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFrameworks>netstandard2.0;net6.0;net7.0</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <IsPackable>True</IsPackable>
+    <TrimMode>copyused</TrimMode>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <RootNamespace>CatML</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Description>A CatML is an alternative Xaml controls toolkit for Avalonia.</Description>
+    <PackageId>CatML</PackageId>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>catml;cat;xaml;markup;avalonia;avaloniaui</PackageTags>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>$(NoWarn);CS8981</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="$(AvaloniaVersion)" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<alley xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="CatML.Demo.lair"
+             name="CatML"
+             RequestedThemeVariant="Light">
+  <alley.Styles>
+    <FluentTheme />
+  </alley.Styles>
+</alley>
