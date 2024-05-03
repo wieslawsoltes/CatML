@@ -9,6 +9,17 @@ A CatML is an alternative Xaml controls toolkit for Avalonia.
 
 Install NuGet package https://www.nuget.org/packages/CatML/
 
+- alley : Application
+- box : Window
+- carpet : Canvas
+- catnip : ComboBox
+- laser : Slider
+- litter : Label
+- option : ComboBoxItem
+- paw : AvaloniaObject
+- post : TextBox
+- toy : Button
+
 ```xaml
 <box xmlns="https://github.com/avaloniaui"
      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
